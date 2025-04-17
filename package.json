@@ -9,16 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bufferutil": "^4.0.9",
+    "framer-motion": "^12.7.3",
+    "next": "15.3.0",
+    "ogl": "^1.0.11",
+    "openai": "^4.95.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.0"
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "utf-8-validate": "^6.0.5"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "@types/socket.io": "^3.0.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
