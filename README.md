@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Ikernell System
 
-## Getting Started
+### 🌐 Sistema de Gestión Integral para Ikernell S.A.S
 
-First, run the development server:
+> Proyecto desarrollado con Spring Boot bajo el modelo MVC para automatizar y controlar los procesos internos de la empresa Ikernell.
+
+---
+
+## 📚 Descripción del Proyecto |
+
+**🇪🇸 Español:**  
+Ikernell System es una plataforma empresarial que permite gestionar usuarios, personal, proyectos y actividades dentro de la empresa, además de ofrecer información institucional y servicios a través de internet.
+
+---
+
+## 🎯 Módulos del sistema | System Modules
+
+### 🏢 Información Empresarial
+- Misión, visión y valores
+- Portafolio de servicios
+- Noticias, FAQs, links de interés, contacto
+
+### 🔐 Autenticación y Gestión de Usuarios
+- Login seguro con roles
+- Correo y chat corporativo
+- Biblioteca de programas y tutoriales
+
+### 👥 Gestión de Personal
+- Registro y actualización de desarrolladores
+- Asignación de proyectos
+- Generación de reportes y control de estado
+
+### 📁 Gestión de Proyectos
+- Registro y edición de proyectos
+- Etapas, actividades, interrupciones
+- Reportes y archivos planos
+
+### 🛠️ Actividades del Desarrollador
+- Registro de avances, errores e interrupciones
+- Vista personalizada de tareas asignadas
+
+---
+
+## 🛠️ Tecnologías | Technologies
+
+- **Java 17**
+- **Spring Boot**
+- **Spring Web, Spring Data JPA, Spring Security**
+- **Thymeleaf (opcional para vistas)**
+- **MySQL**
+- **Maven**
+- **Lombok**
+- **Swagger (para documentación de APIs)**
+
+---
+
+## ⚙️ Cómo ejecutar el proyecto | How to run
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# 1. Clona el repositorio
+git clone https://github.com/Julian7689/Ikernell.git
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 2. Abre el proyecto en IntelliJ IDEA
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 3. Configura la base de datos en application.properties:
+spring.datasource.url=jdbc:mysql://localhost:3306/ikernell_db
+spring.datasource.username=tu_usuario
+spring.datasource.password=tu_contraseña
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 4. Ejecuta la clase principal:
+IkernellSystemApplication.java
