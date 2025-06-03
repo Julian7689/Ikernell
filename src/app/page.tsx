@@ -54,7 +54,7 @@ export default function Page() {
           </div>
           <div>
             <a
-              href="./routes/Login"
+              href="/Login"
               className="bg-white text-black font-semibold px-6 py-3 md:px-12 md:py-4 rounded-2xl shadow-md hover:bg-[#AA0DFF] transition"
             >
               Login

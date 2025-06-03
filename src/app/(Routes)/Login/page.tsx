@@ -19,7 +19,7 @@ export default function Login() {
         <CardLogin />
       </div>
       <div className='w-170 h-170 bg-[#121010] rounded-md left-200 top-7 absolute border border-purple-500 shadow-[0_0_15px_rgba(168,85,247,0.5)]'>
-        <img src="/undraw_building-a-website_1wrp 1.svg" className='mt-20 px-10 mt-20 px-10 w-[500px]  ' />
+        <img src="/undraw_building-a-website_1wrp%201.svg" className='mt-20 px-10 mt-20 px-10 w-[500px]  ' />
       </div>
     </div>
   );
